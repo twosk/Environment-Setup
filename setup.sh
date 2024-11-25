@@ -45,12 +45,13 @@ case "$1" in
         add_aliases
         ;;
 
+    help|-?|?|--help|-h)
+        echo "Usage: $0 {PS1|aliases}"
+		echo "Run without any flags for both."
+        ;;
     *)
     	add_PS1
     	add_aliases
-    ;;
-    help|-?|?|--help|-h)
-        echo "Usage: $0 {PS1|aliases}"
         exit 1
         ;;
 esac
