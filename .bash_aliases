@@ -7,4 +7,5 @@ alias gco="git checkout" # switches to branch
 alias gbrm="git branch -D" # force deletes branch
 alias gcundo="git reset HEAD~1 --mixed" # undoes last commit but keeps changes
 alias gcrm="git reset --hard" # resets to last commit
+alias ggg="git config --global --list" # get global config
 alias gh="cat ~/.bash_aliases" # git alias help
