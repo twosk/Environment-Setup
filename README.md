@@ -1,6 +1,6 @@
 # Environment Setup
 
-A simple script that sets up a environment with a nice looking PS1, and some helpful short aliases for git
+A simple script that sets up a environment with a nice looking PS1, and some helpful short aliases
 
 ### Usage
 `cd` into the cloned directory and do the following for help
